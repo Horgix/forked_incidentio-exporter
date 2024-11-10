@@ -22,6 +22,7 @@ The Incident.io Prometheus Exporter supports all basic pre-configured types of i
 ## 🚀 Deployment
 
 > IMPORTANT: You have to provide the "INCIDENTIO_API_KEY="<MY_API_KEY>" environment variable to your deployment for the Incident.io Prometheus Exporter to work.
+> This API key needs _at least_ the `View data, like public incidents and organisation settings` permission in order to be able to fetch the meaningful information for the metrics collection.
 
 ---
 
