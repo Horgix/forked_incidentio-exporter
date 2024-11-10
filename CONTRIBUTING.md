@@ -16,7 +16,7 @@ git clone git@github.com:dirsigler/incidentio-exporter.git
 
 ## Test your change
 
-Add your changes to the code and build the binary as well as Dockerimage locally.
+Add your changes to the code and build the binary as well as the Docker image locally.
 You can use the example Docker Compose stack in [./examples/docker/](./examples/docker/) to see the changes live.
 
 Else verify that a `curl http://localhost:9193/metrics` responds with the desired Prometheus metrics.
